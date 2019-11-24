@@ -8,3 +8,10 @@ What began as a test to see if things could be changed here or there has turned 
 MB-Lab is the continuation of ManuelBastioniLAB, evolved for the next generation of Blender.
 
 This document is a sub project in itself, it is a WIP and will continue to be developed over time.
+
+.. toctree::
+   :maxdepth: 2
+
+   requirements
+   updates
+   new_features

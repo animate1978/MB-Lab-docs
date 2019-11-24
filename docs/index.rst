@@ -17,9 +17,7 @@ Contents
    :maxdepth: 2
 
    about
-   requirements
-   updates
-   new_features
+   
    installation
    getstart
    model_process
