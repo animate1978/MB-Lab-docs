@@ -7,30 +7,40 @@ Version 1.7.7
 
 This version was improved mainly by contributors in the MB-Lab community!
 
-* Hair Engine
+-----------
+Hair Engine
+-----------
 
 .. image:: images/hair_render_002.png
 
 The long awaited Hair Engine allows you to add particle hair to finalized MB-Lab characters.
 
-* Human Rotation Limits
+---------------------
+Human Rotation Limits
+---------------------
 
 Adds rotation limits to MB-Lab armatures (need to be in POSE mode)
 
 .. image:: images/GUI_hum_rotate_01.png
 
-* Muscle System fixed
+---------------------------
+IK and Muscle Systems fixed
+---------------------------
 
 .. image:: images/muscle_code_01.png
 
 There were some serious bugs related to the Muscle system of MB-Lab that had gone unnoticed for some time
 These have been fixed with this version.
 
-* Proxy Engine update
+-------------------
+Proxy Engine update
+-------------------
 
 The Proxy engine has been improved. Fixed fitting of meshes that are very close to the skin. New option to fit in reverse direction to convert a character-specific mesh to a generic proxy.
 
+-------------
 * GUI updated
+-------------
 
 With the new features added the GUI started to get a little crowded, this version has been updated slightly to shrink it down
 

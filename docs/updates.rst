@@ -5,13 +5,20 @@ Updates
 MB-Lab 1.7.7
 ============
 
+* Blender 2.81.16 required for MB-Lab 1.7.7
 * Hair Engine added
 * Human Rotation limits added
+* Afro Female now the default character on startup
 * Certain bones have to be precisely aligned to the rotation of a specific other bone, which required new code.
 * Stretch to has to be applied to the muscle bones while fitting.
 * B-Bone handles and certain constraints have to be fixed in the library file via a script.
 * Replaced obj.hide_select = False with obj.hide_set(False) fixing Age update bug.
 * Minor GUI edits to fix drawing issues.
+* Updated GUI
+* Eye Displacement bug fixed
+* IK and Muscle / IK bug fixed
+* Fixed Bump and Displacement issues in MBLab_Skin2
+
 
 ============
 MB-Lab 1.7.6
