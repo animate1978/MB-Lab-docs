@@ -17,7 +17,7 @@ Contents
    :maxdepth: 2
 
    about
-   
+   requirements
    installation
    getstart
    model_process

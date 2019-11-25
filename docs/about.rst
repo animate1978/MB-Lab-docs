@@ -11,7 +11,6 @@ This document is a sub project in itself, it is a WIP and will continue to be de
 
 .. toctree::
    :maxdepth: 2
-
-   requirements
-   updates
+   
    new_features
+   updates
