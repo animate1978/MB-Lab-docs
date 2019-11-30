@@ -8,21 +8,16 @@ Install MB-Lab
 
 **IMPORTANT**
 
-One of the most common issues is installation of MB-Lab, which we all admit is a pain because of how GitHub packages release ZIP files. Please read CAREFULLY!!
+For **MB-Lab 1.7.7** it was decided to release this version on the new website
 
-If you download a clone where Github renames it MB-Lab-master, you will not have issues.
+www.mblab.dev
 
-Github packages releases WILL affect how you install MB-Lab if downloading from the release page ONLY!
-
-GitHub packages ZIP files with the version numbers in the name. The folder INSIDE this ZIP file is what needs to be changed, you need to go to that directory and rename it from **MB-Lab 1.x.x** to **MB-Lab-1-x-x** or **MBLAB175** if you want to be simple, **just get rid of the periods in the directory name** and Blender will recognize it and add the addon to the list.
-
-This is because if you install an addon with periods, Blender assumes it is a file extension of some kind and gets confused, which causes confusion in most of installation issues with MB-Lab.
-If you download a clone where Github renames it **MB-Lab-master**, you will not have issues.
+Due to reliance of Large File Storage on GitHub it is NOT recommended to download from GitHub.
 
 
 * Step 1
 
-In Blender 2.80, open the user preferences window, choosing Edit → Preferences
+In Blender 2.81, open the user preferences window, choosing Edit → Preferences
 
 
 .. image:: images/install_01.png
@@ -113,7 +108,10 @@ You can also set the addon to automatically check, by setting the Interval betwe
 Cloning via GIT
 ===============
 
-You can clone the MB-Lab project directly into your addon directory, this is how the developers work for instance.
+You can clone the MB-Lab project directly into your addon directory.
+
+Due to the change to Git Large File Storage it is required to have this.
+
 
 https://github.com/animate1978/MB-Lab.git
 

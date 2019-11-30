@@ -66,6 +66,7 @@ Also the library includes the important database for ethnic phenotypes:
 * Afro phenotypes
 * Asian phenotypes
 * Caucasian phenotypes
+* Latino phenotypes
 
 There are also types and phenotypes for anime characters
 
@@ -250,10 +251,6 @@ The available phenotypes depend by the base character selected:
 
 .. image:: images/phenotypes18.png
 
-.. image:: images/phenotypes09.png
-
-.. image:: images/phenotypes10.png
-
 * Caucasian phenotypes
 
 .. image:: images/phenotypes11.png
@@ -270,3 +267,8 @@ The available phenotypes depend by the base character selected:
 
 .. image:: images/phenotypes17.png
 
+* Latino phenotypes
+
+.. image:: images/phenotypes09.png
+
+.. image:: images/phenotypes10.png
