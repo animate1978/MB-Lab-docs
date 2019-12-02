@@ -1,14 +1,9 @@
 MB-Lab Documentation
 ====================
 
-.. image:: images/hexdna_logo.png
+.. image:: images/hexdna_logo_03.png
 
-MB-Lab is a project aimed to create a scientific and powerful 3D humanoid editor, based off
-the popular ManuelBastioniLAB and is now a community developed and supported project.
-
-This software is based on the long experience gained during the realization of various 3d graphics projects,
-and collected python scripts, new algorithms, original prototypes and models developed by Manuel Bastioni.
-
+MB-Lab is a project aimed to create a scientific and powerful 3D humanoid editor, it is based off the popular ManuelBastioniLAB, now a community developed and supported project.
 
 Contents
 --------
@@ -33,7 +28,4 @@ Contents
    save_export
    license
    developer_main
-
-
-
 
