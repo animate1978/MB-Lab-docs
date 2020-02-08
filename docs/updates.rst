@@ -2,6 +2,14 @@ Updates
 =======
 
 ============
+MB-Lab 1.7.8
+============
+
+* Morph Creator added to MB-Lab
+* Hair Engine now adds shaders to Cycles and EEVEE
+* Updated algorithms and file_ops, removed unused function
+
+============
 MB-Lab 1.7.7
 ============
 

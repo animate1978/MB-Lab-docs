@@ -10,47 +10,46 @@ humanoid_library.blend
 
 Contains the following
 
-Mesh
+**Mesh**
 
-    MBLab_human_female
-    MBLab_human_male
-    MBLab_anime_female
-    MBLab_anime_male
+* MBLab_human_female
+* MBLab_human_male
+* MBLab_anime_female
+* MBLab_anime_male
 
-Armatures
+**Armatures**
 
-    MBLab_skeleton_base_fk
-    MBLab_skeleton_base_ik
-    MBLab_skeleton_muscle_fk
-    MBLab_skeleton_muscle_ik
+* MBLab_skeleton_base_fk
+* MBLab_skeleton_base_ik
+* MBLab_skeleton_muscle_fk
+* MBLab_skeleton_muscle_ik
 
-Shaders
+**Shaders**
 
-Realistic Shaders
+* MBlab_pupil
+* MBlab_human_teeth
+* MBlab_fur
+* MBlab_generic
+* MBlab_human_eyes
+* MBlab_cornea
+* MBlab_human_skin
+* MBlab_iris
+* MBlab_toon_black
+* MBlab_generic
+* MBlab_anime_skin
+* MBlab_anime_eyes
 
-    MBlab_pupil
-    MBlab_human_teeth
-    MBlab_fur
-    MBlab_generic
-    MBlab_human_eyes
-    MBlab_cornea
-    MBlab_human_skin
-    MBlab_iris
+**FaceRig**
 
-Cell Shaders
+* Face_Rig_widgets
+* Phenome_rig
+* MBLab_skeleton_face_rig
 
-    MBlab_toon_black
-    MBlab_generic
-    MBlab_anime_skin
-    MBlab_anime_eyes
+**WARNING!**
 
-FaceRig
-
-    Face_Rig_widgets
-    Phenome_rig
-    MBLab_skeleton_face_rig
-
-WARNING! Editing humanoid_library.blend can cause irreversible damage! Do not edit unless you know exactly what you are doing!
+.. warning::
+    Editing humanoid_library.blend can cause irreversible damage!
+    Do not edit unless you know exactly what you are doing!
 
 ======================
 characters_config.json
@@ -87,9 +86,13 @@ bboxes
 expressions_comb
 ================
 
+JSON files for expressions
+
 ==================
 expressions_morphs
 ==================
+
+JSON files for expressions
 
 ======
 joints
@@ -106,6 +109,8 @@ Contains measurement data
 ======
 morphs
 ======
+
+Contain the min / max morph data
 
 =======
 pgroups
@@ -153,7 +158,8 @@ Contains vertex info?
 =======
 vgroups
 =======
+
 Contains vertex group data
 
-    Data seems to be [Polygon Indice, Weight Value]
+Data seems to be [Polygon Indice, Weight Value]
 

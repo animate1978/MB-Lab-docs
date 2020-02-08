@@ -89,6 +89,12 @@ file_ops.py
 Contains code that handle file operations
 
 ---------------
+morphcreator.py
+---------------
+
+Module to create and edit the JSON morph library
+
+---------------
 material_ops.py
 ---------------
 

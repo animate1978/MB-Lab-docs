@@ -2,6 +2,24 @@ New Features
 ============
 
 =============
+Version 1.7.8
+=============
+
+MAJOR UPDATE! WIP
+
+-------------
+Morph Creator
+-------------
+
+This allows users and developers to create and edit morphs for base meshes
+
+------------
+Hair Shaders
+------------
+
+The Hair engine now adds shaders to both EEVEE and Cycles
+
+=============
 Version 1.7.7
 =============
 
