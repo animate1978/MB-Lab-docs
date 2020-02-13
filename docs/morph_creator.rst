@@ -3,6 +3,8 @@ Morph Creator
 
 The new Morph Creator allows users and devlopers alike to create and edit morphs.
 
+.. image:: images/morphcreate_gui.png
+
 This is a development tool, which of it's kind has never been present in MB-Lab, making it a unique addition to the addon.
 
 This document is a WIP.

@@ -25,8 +25,6 @@ algorithms.py
 
 Contains various functions for every engine.
 
-* Example - https://github.com/animate1978/MB-Lab/blob/3994f37e33699bd0d082a4f9f076724e4f0d40ba/algorithms.py#L1332
-
 ------------------
 animationengine.py
 ------------------

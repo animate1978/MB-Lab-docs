@@ -71,25 +71,33 @@ Version 1.7.6
 
 This version has several new features!
 
-* Latino model type
+-----------------
+Latino model type
+-----------------
 
 This version includes a new Latino model type as well as a new South American phenotype.
 
 .. image:: images/latino_render_01.png
 
-* Skin tone for each model type of realistic humans
+----------
+Skin tones
+----------
 
 Now skin tones by default will load per model type
 
 .. image:: images/skin_tone_002.png
 
-* MB-Lab Skin 2
+-------------
+MB-Lab Skin 2
+-------------
 
 This is a completely new skin shader, using more procedural elements than previous versions, eliminating a lot of texture maps for simple rendering functions (Specular, SSS, Roughness etc...)
 
 .. image:: images/new_skin_shader.png
 
-* Nail shader
+-----------
+Nail shader
+-----------
 
 This is a new shader for finger and toe nails with the option to mix between "natural" and "painted".
 
@@ -100,7 +108,9 @@ Version 1.7.5
 
 This version is meant to be the "official" stable version for Blender 2.80 after it is officially released.
 
-* GUI change
+----------
+GUI change
+----------
 
 This version shows the evolution of the GUI that has changed since the original 1.6.1 version.
 
@@ -108,29 +118,37 @@ Icons have been added everywhere now!
 
 .. image:: images/GUI_175.png
 
-* Improved Face Rig
+-----------------
+Improved Face Rig
+-----------------
 
 The Face Rig has been updated now, with a new FACS capable Rig
 
-
-
-* Tongue Shader
+-------------
+Tongue Shader
+-------------
 
 Now you can edit the skin complexion without changing the color of the tongue.
 
 .. image:: images/tongue_001.png
 
-* Improved Eye and Iris Shaders
+-----------------------------
+Improved Eye and Iris Shaders
+-----------------------------
 
 This was a very late addition to MB-Lab 1.7.5 but looks fantastic compared to the previous versions
 
 .. image:: images/new_eyes_04.png
 
-* Animation BVH Files
+-------------------
+Animation BVH Files
+-------------------
 
 These are "raw" BVH files of some basic animations such as walking, running, jumping etc...
 
-* BVH Bone Config
+---------------
+BVH Bone Config
+---------------
 
 Save and load config files to adjust bones after importing BVH animation files.
 
@@ -140,6 +158,10 @@ Save and load config files to adjust bones after importing BVH animation files.
 =============
 Version 1.7.4
 =============
+
+--------------
+Shader updates
+--------------
 
 Shaders for this version have been re-worked from the ground up to try to achieve a realistic look as much as possible.
 
@@ -151,12 +173,20 @@ The eyes have become completely procedural in this version, which allows a great
 
 Eye vein visiblity is controlled with a slider.
 
+------------
+New Lighting
+------------
+
 The lighting setup has been changed to a three point arrangment using Area lights now.
 
 
 =============
 Version 1.7.3
 =============
+
+------------
+Auto Updater
+------------
 
 This version is the addition of the Auto Updater.
 

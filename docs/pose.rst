@@ -106,12 +106,26 @@ The buttons "Load pose" and "Save pose" are used to load and save poses using a 
 Animations
 ==========
 
-MB-Lab can load a raw animation from bvh files. It's an advanced expert system that analyzes the "anatomy" of the bvh, automatically recognizes the various elements (fingers, head, spine, feet, ecc.). During the tests it successfully recognized the most common skeleton structures used in mocap descriptions.
+MB-Lab can load a raw animation from bvh files.
 
-The animation system works best with a basic armature, it has been noticed that using the Muscles armature will cause deformation of the body mesh, at this point it is not entirely understood why. It is also not possible to use bvh animation files with the IK rig.
+It's an advanced expert system that analyzes the "anatomy" of the bvh, automatically recognizes the various elements (fingers, head, spine, feet, ecc.). During the tests it successfully recognized the most common skeleton structures used in mocap descriptions.
+
+The animation system works with the FK armature, it has been noticed that using the Muscles armature will cause deformation of the body mesh, at this point it is not entirely understood why.
+
+It is also not possible to use bvh animation files with the IK rig.
 
 .. image:: images/poses_01.png
 
+It is highly suggested that users disable the Subdivision Surface Modifier, this will improve frame rates during animation.
+
+
+=====================
+Human Rotation Limits
+=====================
+
+.. image:: images/GUI_hum_rotate_01.png
+
+If selected this option puts limits on rotations of the FK skeleton rig. Using this will prevent extreme rotation poses that are not "natural" to the human body.
 
 =========
 Utilities

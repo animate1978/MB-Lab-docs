@@ -5,9 +5,23 @@ Updates
 MB-Lab 1.7.8
 ============
 
-* Morph Creator added to MB-Lab
-* Hair Engine now adds shaders to Cycles and EEVEE
-* Updated algorithms and file_ops, removed unused function
+* Morph Engine added
+* Hair Engine now adds hair shaders to Cycles and EEVEE
+* MBLabSkin2 uses Principled BSDF yet again
+* Bump map remade, Thickness map removed
+* Modified skin oil maps
+* Slight GUI change to the Asset and Hair box
+* Eyelash shader now has bump and gloss
+* ExpressionEngine class now in it's own file
+* Blush map converted to grayscale
+* Modified Albedo maps
+* Bump maps now 4k resolution
+* Modified Freckle masks
+* Modified Material Engine
+* Changed lighting code, now lights are added via Python
+* Poses don't show when user selects IK model
+* Preserve Phenotype random function code fix
+* Typo: Hands_Lenght, fixed in transformation and measurements JSON
 
 ============
 MB-Lab 1.7.7
