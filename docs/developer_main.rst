@@ -13,3 +13,6 @@ The development of MB-Lab is not only to get x,y,z feature in but to figure out 
 
    dev_modules
    dev_data
+   morph_creator
+   expression_editor
+

@@ -5,7 +5,7 @@ Updates
 MB-Lab 1.7.8
 ============
 
-* Morph Engine added
+* MB-Dev (MB-Crea) framework added
 * Hair Engine now adds hair shaders to Cycles and EEVEE
 * MBLabSkin2 uses Principled BSDF yet again
 * Bump map remade, Thickness map removed

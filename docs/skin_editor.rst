@@ -72,6 +72,18 @@ This controls how much procedural veins are added to the skin.
 .. image:: images/SS_skinveins_000.png
 .. image:: images/SS_skinveins_100.png
 
+--------
+Skin SSS
+--------
+
+This controls the amount of SubSurface Scattering.
+
+----------
+Skin Blush
+----------
+
+This controls the level of the blush effect.
+
 
 --------------------------
 Bump/displacement controls

@@ -7,11 +7,11 @@ Version 1.7.8
 
 MAJOR UPDATE! WIP
 
--------------
-Morph Creator
--------------
+----------------
+MB-Dev Framework
+----------------
 
-This allows users and developers to create and edit morphs for base meshes
+New framework and tools to build new character meshes. EXPERIMENTAL
 
 ------------
 Hair Shaders
