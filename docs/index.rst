@@ -18,7 +18,6 @@ Contents
    model_process
    creation_tools
    skin_editor
-   morph_creator
    finalize
    after_creation_tools
    face_rig
