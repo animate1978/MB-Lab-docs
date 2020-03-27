@@ -26,24 +26,7 @@ Contains the following
 
 **Shaders**
 
-* MBlab_pupil
-* MBlab_human_teeth
-* MBlab_fur
-* MBlab_generic
-* MBlab_human_eyes
-* MBlab_cornea
-* MBlab_human_skin
-* MBlab_iris
-* MBlab_toon_black
-* MBlab_generic
-* MBlab_anime_skin
-* MBlab_anime_eyes
-
-**FaceRig**
-
-* Face_Rig_widgets
-* Phenome_rig
-* MBLab_skeleton_face_rig
+WIP
 
 **WARNING!**
 

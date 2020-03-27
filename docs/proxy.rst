@@ -5,11 +5,11 @@ Proxy System
 
 A "proxy" is a mesh able to fit the character in order to be adapted to its transformations.
 
-The classic case of proxies are the clothes and hair.
+An example of a proxy is clothing and polygon based hair.
 
 .. image:: images/gallery_160_04.png
 
-In MB-Lab, the proxy usage is very simple. Practically it consists just in two steps:
+In MB-Lab, the proxy usage is very simple. 
 
 * Prepare the proxy tailored for a base template and save it.
 * Load the proxy and use it on any derived character.
@@ -165,7 +165,7 @@ To create a new asset is actually fairly simple procress but certain requirement
 
 * Scaled to the MB-Lab Base model
 
-The assets need to be scaled to size with an MB-Lab mesh. Use some of the assets found in the MB-Lab project as reference.
+The assets need to be scaled to size with an MB-Lab mesh. It is common to use an MB-Lab character.
 
 * Named the same in Outliner as well as filename 
 

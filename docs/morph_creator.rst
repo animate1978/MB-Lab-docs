@@ -15,15 +15,15 @@ Workflow
 
 What is the workflow to create morphs to a model ?
 
-First, what is a morph ?
+* First, what is a morph ?
 
 A morph is a group of vectors that move vertices they are attached on. Each morph corresponds to a specific body part, and the name explains what it does. For example Torso-SizeX is a morph that change the size of the torso along the X axis. The first part of the name is the category where the morph is. A same morph can't be in 2 different categories. And each morph has a minimum value(0) and a maximum (1). For the moment we can't exceed theses values.
 
-Different types of morphs ?
+* Different types of morphs ?
 
 For the user, no. They don't exist after finalization, except for the morphs involved in face expressions, they are changed in shapekeys, and used to create expressions like angry, or happy.
 
-For the creator, it's different, you have 2 types.
+For the creator, it's different, you have **2 types**.
 
 -------------
 Simple Morphs
@@ -52,13 +52,12 @@ But, basically, you'll create 2 files for your morphs.
 
 The workflow for creating combined morphs :
 
-You create a dedicated file where you store every simple morphs that you want to use to create combined morphs.
+* You create a dedicated file where you store every simple morphs that you want to use to create combined morphs.
+* You create/sculpt them and store the results with "Simple Morph Creator" tool.
+* Quit Blender and reopen it.
+* Use the "Combined Morph Creator" to choose those morphs (for mix of 2, 3 or 4 simple morphs).
 
-You create/sculpt them and store the results with "Simple Morph Creator" tool.
-
-Quit Blender and reopen it.
-
-Use the "Combined Morph Creator" to choose those morphs (for mix of 2, 3 or 4 simple morphs). Play with min/max values. For each combination you have to sculpt the result and store it. So for combination of 2 simple morphs, you have to create 4 sculpts. For 3 it's 8 and for 4 it's 16. You save the result as a simple morph, it's the same workflow. Important, save the morphs in another file, not the one where the simple morphs are.
+Play with min/max values. For each combination you have to sculpt the result and store it. So for combination of 2 simple morphs, you have to create 4 sculpts. For 3 it's 8 and for 4 it's 16. You save the result as a simple morph, it's the same workflow. Important, save the morphs in another file, not the one where the simple morphs are.
 
 When all these combinations are made and saved in the dedicated file, you can either create new combined morphs (and they can re-use simple morphs already used), or delete/move the file where the simple morphs are. Quit Blender, reopen it, and the combined morphs are shown as simple morphs, but their behavior depend of other morphs used for the mix.
 

@@ -21,7 +21,7 @@ Parameters are physical features that can be modified by increasing or decreasin
 Examples of parameters are the numerical values for noticeable features like weight, height, muscle and mass percentages or for detail features like nose length, eyes distance, mouth width.
 
 **WIP**
-With the upcoming features in **MB-Lab 1.7.8**, the modeling process definition here will be changed as the tools being developed are geared towards traditional modeling practices.
+With the upcoming features in **MB-Lab 1.7.8**, the modeling process definition here will be changed as the tools being developed will allow users to edit models for the first time.
 
 
 

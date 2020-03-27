@@ -1,18 +1,18 @@
 Getting Started
 ===============
 
-The user interface is perfectly integrated in Blender and designed to make the modeling process a simple and clear process.
+The user interface of MB-Lab is seen in the sidebar of Blender, by pressing N on your keyboard or by expanding the panel with your mouse.
 
 .. image:: images/new_GUI_001.png
 
-At the start the creation section contains only few elements:
+The MB-Lab interface upon startup consists of a few elements :
 
 * The selector to choose the base model
-* The option related to the type of skeleton (basic, with inverse kinematic, with bending muscles)
-* The create button to initialize it
+* The option related to the type of skeleton
 * Some options related to rendering engine and lights
+* The create button to initialize it
 
-.. image:: images/GUI_175.png
+.. image:: images/GUI_MBLAB178_01.png
 
 
 MB-Lab includes a set of base characters, as shown in the figure:
