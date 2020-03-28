@@ -1,7 +1,7 @@
 Pose
 ====
 
-.. image:: images/poses01.png
+.. image:: images/new_pose_01.png
 
 All characters in MB-Lab are rigged using the same core skeleton structure, in order to have a stable standard and to easily share poses and animations.
 

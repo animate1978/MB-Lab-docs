@@ -1,13 +1,15 @@
 Skin Editor
 ===========
 
-MB-Lab provides a custom shader editor that can be used with Cycles or EEVEE.
+MB-Lab provides a custom skin editor that can be used with Cycles or EEVEE.
 
 .. image:: images/skin_editor_01.png
 
 Underneath the Skin Editor are sets of complex surface shaders.
 
-These shaders have been developed to simulate the variety of skin tones and work under any lighting condition. There are currently two sets of shaders, one "photorealistic" set and the "cell" shaders set. Each set of shaders are assigned to specific base models.
+These shaders have been developed to simulate the variety of skin tones and work under any lighting condition.
+
+There are currently two sets of shaders, one "photorealistic" set and the "cell" shaders set. Each set of shaders are assigned to specific base models.
 
 * An advanced human skin shader
 * An advanced toon skin shader
@@ -18,7 +20,9 @@ The shaders use a combination of texture maps and procedural texture generation,
 
 .. image:: images/skin_shader_01.png
 
-The following parameter editor will change depending on the base model you choose. The parameters editor is composed by an intuivive set of sliders for easily modify the values of skin complexion, skin bump, skin oil, skin saturation, skin subsurface scattering and more.
+The following parameter editor will change depending on the base model you choose.
+
+The parameters editor is composed by an intuivive set of sliders for easily modify the values of skin complexion, skin bump, skin oil, skin subsurface scattering and more.
 
 ===========================
 Realistic Shader Parameters
@@ -240,7 +244,7 @@ This controls the value, or lightness, of the iris. As with Saturation can be us
 Texture Maps
 ============
 
-There are several texture maps for MB-Lab that provide certain effects to the shaders, such as micro scale roughness, specularity and sub surface scattering.
+There are several texture maps for MB-Lab that provide certain effects to the shaders.
 
 As with the shaders there are two sets of maps, one for the realistic characters and the other for the anime characters. The "Realistic" set has quite a collection for the various shader effects, while the "Anime" set consists of at this time a single albedo map.
 
@@ -248,7 +252,7 @@ There is also the ability to change these maps, there are several ways to do thi
 
 .. image:: images/io_textures_01.png
 
-Currently there are only options to export the Albedo map and the Displacement Map (note : for the Anime models there is no Displacement map, so there is not an option to export it), or Export all maps at once, which will include the SSS, specular, roughness and more.
+Currently there are only options to export the Albedo map and the Displacement Map (note : for the Anime models there is no Displacement map, so there is not an option to export it), or Export all maps at once.
 
 There is also the option to directly change these maps via the Node Editor for the shader you are editing. This is for instance, one of the ways that new maps have been developed, by replacing a shipped texture map with a WIP one.
 
