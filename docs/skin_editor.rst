@@ -3,18 +3,18 @@ Skin Editor
 
 MB-Lab provides a custom skin editor that can be used with Cycles or EEVEE.
 
-.. image:: images/skin_editor_01.png
+.. image:: images/skin_editor_new.png
 
 Underneath the Skin Editor are sets of complex surface shaders.
 
-These shaders have been developed to simulate the variety of skin tones and work under any lighting condition.
+These shaders have been developed to simulate the variety of skin tones and work under any lighting condition. There will be slight differences in the rendering of EEVEE and Cycles but generally try to remain the same.
 
 There are currently two sets of shaders, one "photorealistic" set and the "cell" shaders set. Each set of shaders are assigned to specific base models.
 
 * An advanced human skin shader
-* An advanced toon skin shader
 * An advanced set of eyeball and iris shaders
 * Shaders for the teeth, tongue and nails
+* An advanced toon skin shader
 
 The shaders use a combination of texture maps and procedural texture generation, the texture maps are used where procedural generated textures cannot work, while the procedural elements provide details that maps cannot replicate.
 
@@ -23,6 +23,8 @@ The shaders use a combination of texture maps and procedural texture generation,
 The following parameter editor will change depending on the base model you choose.
 
 The parameters editor is composed by an intuivive set of sliders for easily modify the values of skin complexion, skin bump, skin oil, skin subsurface scattering and more.
+
+These parameters should be adjusted according to your surfacing and lighting needs.
 
 ===========================
 Realistic Shader Parameters
@@ -36,7 +38,7 @@ Skin Complexion
 
 This changes the skin complexion shade.
 
-.. image:: images/gallery_150_13.png
+.. image:: images/complexion.png
 
 --------
 Skin Oil
@@ -44,8 +46,7 @@ Skin Oil
 
 This provides a subtle effect of oil on the skin.
 
-.. image:: images/SS_oil_00.png
-.. image:: images/SS_oil_90.png
+.. image:: images/skin_oil_eevee.png
 
 
 ---------
@@ -54,8 +55,8 @@ Skin Bump
 
 This parameter controls the amount of the skin bump. It doesn't affect the true displacement of the subdivided mesh, but only the visual bump effect calculated at render time.
 
-.. image:: images/SS_bump_000.png
-.. image:: images/SS_bump_100.png
+.. image:: images/skin_bump_eevee.png
+
 
 
 -------------
@@ -64,8 +65,8 @@ Skin Freckles
 
 This parameter controls how much procedural freckles are added, the coverage is affected by a texture mask.
 
-.. image:: images/SS_freckles_000.png
-.. image:: images/SS_freckles_100.png
+.. image:: images/skin_freckles_eevee.png
+
 
 ----------
 Skin Veins
@@ -73,8 +74,8 @@ Skin Veins
 
 This controls how much procedural veins are added to the skin.
 
-.. image:: images/SS_skinveins_000.png
-.. image:: images/SS_skinveins_100.png
+.. image:: images/skin_veins_eevee.png
+
 
 --------
 Skin SSS
@@ -82,12 +83,15 @@ Skin SSS
 
 This controls the amount of SubSurface Scattering.
 
+.. image:: images/skin_sss_cycles.png
+
 ----------
 Skin Blush
 ----------
 
 This controls the level of the blush effect.
 
+.. image:: images/skin_blush_eevee.png
 
 --------------------------
 Bump/displacement controls
@@ -99,8 +103,7 @@ You should use this button to update the bump/displacement each time you change 
 
 Each time the button "Update displacement" is pressed, the system recalculates the displacement map using the values of meta parameters. This map can be saved with the "Save displacement image" button, in order to be usable in external engines or in finalized characters.
 
-.. image:: images/cycles_displace_000_01.png
-.. image:: images/cycles_displace_090_01.png
+.. image:: images/cycles_displace.png
 
 
 ======================
@@ -195,7 +198,7 @@ This controls the value, or lightness, of the iris. As with Saturation can be us
 Eye and Iris Shader
 ===================
 
-With version 1.7.5 comes a new set of eye shaders. They have been redesigned from the ground up.
+Starting with version 1.7.5 comes a new set of **eye** shaders. They have been redesigned from the ground up.
 
 The Iris shader has both a procedural network where you can change various settings to get the effect you want, as well as a texture map version with controls in MB-Lab that can change the color as well. There is the option to Mix the two together to get some interesting effects.
 

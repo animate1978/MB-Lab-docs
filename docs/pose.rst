@@ -42,8 +42,6 @@ MB-Lab includes a simulated muscle armature. This system tries to emulate the be
 
 .. image:: images/muscles_175.png
 
-Originally there was a plan of two muscle systems, one which is already included in MB-Lab and another more advanced system, as described by Manuel Bastioni as a more accurate model. One of the main difference between the two systems is that the "full" one will be anatomically more accurate, but it will require (probably) to have the lab installed on the production machine. On the contrary, the "base" system already implemented in **version 1.6.0** and above, that simulates only the main muscles masses, relies on the standard Blender tools and after the finalization step the character will work on any recent version of Blender, with or without the lab installed.
-
 The images show some features of the muscle system and a comparison with the base skeleton system:
 
 .. image:: images/muscles_175_02.png
