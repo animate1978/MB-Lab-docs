@@ -5,19 +5,38 @@ New Features
 Version 1.7.8
 =============
 
-MAJOR UPDATE! WIP
+This version was heavily modified over a period of months
 
 ----------------
 MB-Dev Framework
 ----------------
 
-New framework and tools to build new character meshes. EXPERIMENTAL
+New framework and tools to edit MB-Lab characters, as well as adopt new models into the MB-Lab library.
 
 ------------
 Hair Shaders
 ------------
 
 The Hair engine now adds shaders to both EEVEE and Cycles
+
+-------------------
+Texture Map upgrade
+-------------------
+
+The texture maps of MB-Lab Skin 2 have been upgraded, this includes 4K bump maps, plus new oil and freckle maps
+
+--------------------
+Principled BSDF Skin
+--------------------
+
+MB-Lab Skin 2 is now using the Principled BDSF Shader Node again
+
+-------------
+Lighting Code
+-------------
+
+This is a new code addition that replaces the appending of lights in humanoid_library.blend, uses code to dynamically add lights
+
 
 =============
 Version 1.7.7

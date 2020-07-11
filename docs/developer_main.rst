@@ -12,7 +12,6 @@ This part of the documentation will focus on how to expand MB-Lab as well as rev
 .. toctree::
    :maxdepth: 2
 
-   morph_creator
-   expression_editor
+   dev_framework
    dev_modules
    dev_data
