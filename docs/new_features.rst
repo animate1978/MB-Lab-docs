@@ -13,6 +13,8 @@ MB-Dev Framework
 
 New framework and tools to edit MB-Lab characters, as well as adopt new models into the MB-Lab library.
 
+.. image:: images/mb_dev_178.png
+
 ------------
 Hair Shaders
 ------------
@@ -25,17 +27,42 @@ Texture Map upgrade
 
 The texture maps of MB-Lab Skin 2 have been upgraded, this includes 4K bump maps, plus new oil and freckle maps
 
+.. image:: images/4k_bump.png
+
+
 --------------------
 Principled BSDF Skin
 --------------------
 
-MB-Lab Skin 2 is now using the Principled BDSF Shader Node again
+MB-Lab Skin 2 is now using the Principled BDSF Shader Node again. This reduces rendertimes
+
+.. image:: images/comparison_shaders.png
+
+---------------
+Eye Lash Shader
+---------------
+
+The Eyelash Shader now has gloos and bump
+
+.. image:: images/eyelash_update_cycles.png
+
+--------------
+Eyeball Shader
+--------------
+
+The eyeball shader has been updated.
+
+.. image:: images/eyeball_shader_before_001.png
+
+.. image:: images/eyeball_shader_after_001.png
 
 -------------
 Lighting Code
 -------------
 
 This is a new code addition that replaces the appending of lights in humanoid_library.blend, uses code to dynamically add lights
+
+.. image:: images/lighting_code.png
 
 
 =============

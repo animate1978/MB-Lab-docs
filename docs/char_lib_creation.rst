@@ -17,13 +17,19 @@ This is part of the MB-Dev framework tools to develop new models and characters 
 Workflow
 --------
 
-Create a new character. Do not finalize this character.
+Create a new character. Do not finalize this character!
 
-Edit the Morphing Catagories just like you would in MB-Lab's Body Measures sub menu
+.. image:: images/base_178.png
+
+Edit the Morphing Catagories in the MB-Dev Sub section, just like you would in MB-Lab's Body Measures sub section
+
+.. image:: images/phenotype_creation_01.png
 
 Enter the new name, a button will appear to save this new Phenotype
 
-Click on the button, file is saved
+.. image:: images/save_phenotype_name.png
+
+Click on the button "Finalize the Phenotype", file is saved. If the file name already exists it will give a warning. It will give a warning right after saving but this is normal.
 
 Create a new scene in Blender, create a new character type and the new Phenotype will appear in the characters Phenotype menu
 
