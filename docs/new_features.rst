@@ -15,6 +15,15 @@ New framework and tools to edit MB-Lab characters, as well as adopt new models i
 
 .. image:: images/mb_dev_178.png
 
+----------
+GUI Update
+----------
+
+MB-Lab's GUI was modified. Sliders are now highlighted and the overall look is slimmer and more streamlined.
+
+.. image:: images/GUI_MBLAB178_01.png
+
+
 ------------
 Hair Shaders
 ------------
@@ -42,7 +51,7 @@ MB-Lab Skin 2 is now using the Principled BDSF Shader Node again. This reduces r
 Eye Lash Shader
 ---------------
 
-The Eyelash Shader now has gloos and bump
+The Eyelash Shader now has gloss and bump
 
 .. image:: images/eyelash_update_cycles.png
 
@@ -54,7 +63,11 @@ The eyeball shader has been updated.
 
 .. image:: images/eyeball_shader_before_001.png
 
+Before
+
 .. image:: images/eyeball_shader_after_001.png
+
+After
 
 -------------
 Lighting Code

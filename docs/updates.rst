@@ -22,6 +22,7 @@ MB-Lab 1.7.8
 * Poses don't show when user selects IK model
 * Preserve Phenotype random function code fix
 * Typo: Hands_Lenght, fixed in transformation and measurements JSON
+* MBLab Pupil shader uses Diffuse Node instead of Emission
 
 ============
 MB-Lab 1.7.7
