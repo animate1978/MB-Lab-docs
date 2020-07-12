@@ -23,6 +23,7 @@ MB-Lab 1.7.8
 * Preserve Phenotype random function code fix
 * Typo: Hands_Lenght, fixed in transformation and measurements JSON
 * MBLab Pupil shader uses Diffuse Node instead of Emission
+* "Standard" pose added to the rest pose presets
 
 ============
 MB-Lab 1.7.7

@@ -114,13 +114,44 @@ This is the code that controls the face rig
 preferences.py
 --------------
 
-Related to the Auto-updater
+Related to the Auto-updater along with other options for Preferences
 
 --------
 utils.py
 --------
 
 Contain helper code for other engines
+
+---------------------
+creation_tools_ops.py
+---------------------
+---------------------
+expressionscreator.py
+---------------------
+----------------
+jointscreator.py
+----------------
+------------------
+measurescreator.py
+------------------
+---------------
+skeleton_ops.py
+---------------
+-----------
+transfor.py
+-----------
+-----------------
+vgroupscreator.py
+-----------------
+-----------
+mesh_ops.py
+-----------
+-----------
+node_ops.py
+-----------
+------------
+numpy_ops.py
+------------
 
 ---------------------
 humanoid_rotations.py
