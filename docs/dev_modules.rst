@@ -1,13 +1,13 @@
 MB-Lab Modules
 ==============
 
-This is a WIP document, things will change.
+The Modules of MB-Lab are the Python files, the engines that run under the hood.
 
 ============
 Main Modules
 ============
 
-The main modules are derived from the original code of ManuelBastioiLAB ver 1.6.1
+The main modules are derived from the original code of **ManuelBastioniLAB ver 1.6.1**
 
 Since the beginning of the fork this code has evolved and expanded over time.
 
@@ -17,7 +17,7 @@ _ init _.py
 This is the core of the addon.
 
 * Function calls
-* UI Elements
+* GUI Elements
 
 -------------
 algorithms.py
@@ -125,33 +125,62 @@ Contain helper code for other engines
 ---------------------
 creation_tools_ops.py
 ---------------------
+
+Main code for the MB-Dev framework
+
 ---------------------
 expressionscreator.py
 ---------------------
+
+Code to help create new expressions
+
 ----------------
 jointscreator.py
 ----------------
+
+Code to make the joints JSON
+
 ------------------
 measurescreator.py
 ------------------
+
+Creates the measurement JSON files
+
 ---------------
 skeleton_ops.py
 ---------------
+
+Helps in the creation of the Joints and Skeleton
+
 -----------
 transfor.py
 -----------
+
+Contains code for the transformation files
+
 -----------------
 vgroupscreator.py
 -----------------
+
+Creates the Vertex Weight JSON files
+
 -----------
 mesh_ops.py
 -----------
+
+Functions to help with the mesh editing
+
 -----------
 node_ops.py
 -----------
+
+Code to help with the Hair shader creation
+
 ------------
 numpy_ops.py
 ------------
+
+Code to place the Hair JSON data into compressed NPZ files
 
 ---------------------
 humanoid_rotations.py
@@ -162,6 +191,8 @@ Contains code for the human rotation limit feature
 =====================
 Addon Updater Modules
 =====================
+
+The Addon Updater code was adopted from CGCookie's original code.
 
 ----------------
 addon_updater.py

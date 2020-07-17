@@ -8,16 +8,15 @@ Install MB-Lab
 
 **IMPORTANT**
 
-For **MB-Lab 1.7.7** it was decided to release this version on the new website
+For **MB-Lab 1.7.7** and above it was decided to release this version on the new website
 
-www.mblab.dev
+https://mblab.dev/
 
-Due to reliance of Large File Storage on GitHub it is NOT recommended to download from GitHub.
 
 
 * Step 1
 
-In Blender 2.81, open the user preferences window, choosing Edit → Preferences
+In Blender 2.80+, open the user preferences window, choosing Edit → Preferences
 
 
 .. image:: images/install_01.png
@@ -53,7 +52,7 @@ When the installation will be completed, a new category named "Characters" will 
 
 Close the User Preferences window.
 
-Press "N" to make the Sidebar with the MB-Lab interface appear in Blender 2.80
+Press "N" to make the Sidebar with the MB-Lab interface appear in Blender 2.80+
 
 .. image:: images/new_GUI_001.png
 
@@ -110,8 +109,6 @@ Cloning via GIT
 
 You can clone the MB-Lab project directly into your addon directory.
 
-Due to the change to Git Large File Storage it is required to have this.
-
 
 https://github.com/animate1978/MB-Lab.git
 
@@ -119,4 +116,8 @@ There are two main branches.
 
 Master - This is the "release" code
 
-dev - This is the development code
+dev - This is the development code, this code can be unstable at times
+**WARNING**
+
+.. warning::
+    Cloning the GitHub repository will download over 400 MB of data

@@ -21,6 +21,8 @@ GUI Update
 
 MB-Lab's GUI was modified. Sliders are now highlighted and the overall look is slimmer and more streamlined.
 
+.. image:: images/mblab_GUI_178_menu01.png
+
 .. image:: images/GUI_MBLAB178_01.png
 
 
@@ -29,6 +31,10 @@ Hair Shaders
 ------------
 
 The Hair engine now adds shaders to both EEVEE and Cycles
+
+.. image:: images/hair_shaders_01.png
+
+.. image:: images/hair_shaders_02.png
 
 -------------------
 Texture Map upgrade

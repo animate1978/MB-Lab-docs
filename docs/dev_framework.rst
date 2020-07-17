@@ -18,5 +18,6 @@ The tools are split into two parts.
    :maxdepth: 2
    
    morph_creator
+   copy_morphs
    char_lib_creation
    expression_editor

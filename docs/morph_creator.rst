@@ -1,7 +1,9 @@
-Morph Creator
-=============
+Morph Creation
+==============
 
-The new Morph Creator allows users and devlopers alike to create and edit morphs.
+Morph creation tools will allows users and devlopers alike to create and edit morphs.
+
+Morphs are what make up the majority of MB-Lab itself, which allows for custom body types.
 
 .. image:: images/morphcreate_gui.png
 
@@ -27,9 +29,13 @@ Simple Morphs
 
 They change the size/position/shape of a body part, and they don't overlap other morphs too much (or it doesn't matter, the result fits well in any case).
 
+.. image:: images/morphcreate_gui.png
+
 ---------------
 Combined morphs
 ---------------
+
+.. image:: images/morphcreate_gui_02.png
 
 You see them as simple morphs when you morph a model as an user, but in reality they overlap each over so much that the result would be weird or ugly if they would stay simple morphs. For example, a torso can be fat, athletic, normal, and so on. The tone of the torso has consequences on the mass, etc. So the morphs can't be separated, they must be combined to always work nicely. More about this below.
 
