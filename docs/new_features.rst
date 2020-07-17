@@ -5,7 +5,7 @@ New Features
 Version 1.7.8
 =============
 
-This version was heavily modified over a period of months
+This version brings a ton of new features and updates!
 
 ----------------
 MB-Dev Framework
@@ -35,14 +35,6 @@ The Hair engine now adds shaders to both EEVEE and Cycles
 .. image:: images/hair_shaders_01.png
 
 .. image:: images/hair_shaders_02.png
-
--------------------
-Texture Map upgrade
--------------------
-
-The texture maps of MB-Lab Skin 2 have been upgraded, this includes 4K bump maps, plus new oil and freckle maps
-
-.. image:: images/4k_bump.png
 
 
 --------------------
@@ -74,6 +66,15 @@ Before
 .. image:: images/eyeball_shader_after_001.png
 
 After
+
+-------------------
+Texture Map upgrade
+-------------------
+
+The texture maps of MB-Lab Skin 2 have been upgraded, this includes 4K bump maps, plus new oil and freckle maps
+
+.. image:: images/4k_bump.png
+
 
 -------------
 Lighting Code

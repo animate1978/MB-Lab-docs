@@ -9,15 +9,13 @@ The tools allow the editing of existing base mesh as well as creating new base m
 
 The tools are split into two parts.
 
-Model Edition
--------------
+**Model Edition**
 
 Allows the editing of existing base character models
 
 .. image:: images/mb_dev_178.png
 
-Model Intergration
-------------------
+**Model Intergration**
 
 Tools to create the JSON data required for base character models
 
