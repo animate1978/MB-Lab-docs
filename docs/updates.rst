@@ -24,6 +24,8 @@ MB-Lab 1.7.8
 * Typo: Hands_Lenght, fixed in transformation and measurements JSON
 * MBLab Pupil shader uses Diffuse Node instead of Emission
 * "Standard" pose added to the rest pose presets
+* Hair Dynamics bug fix for Nvidia GPU cards
+* SSS Radius changed to more accurate values
 
 ============
 MB-Lab 1.7.7
