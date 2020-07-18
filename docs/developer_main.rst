@@ -12,7 +12,7 @@ The development of MB-Lab is not only to get x,y,z feature in but to figure out 
 This part of the documentation will focus on how to expand MB-Lab as well as reverse engineer the data and internals.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
    dev_framework
    dev_modules
