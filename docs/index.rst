@@ -11,7 +11,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 6
+   :maxdepth: 2
 
    about
    requirements
@@ -24,6 +24,7 @@ Contents
    after_creation_tools
    save_export
    developer_main
+   dev_framework_index
    license
 
 
