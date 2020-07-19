@@ -13,6 +13,7 @@ This part of the documentation will focus on how to expand MB-Lab as well as rev
 
 .. toctree::
    :maxdepth: 2
-
+   model_edition
+   model_integration
    dev_modules
    dev_data
