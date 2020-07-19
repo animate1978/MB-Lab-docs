@@ -24,7 +24,6 @@ Contents
    after_creation_tools
    save_export
    developer_main
-   dev_framework_index
    license
 
 
