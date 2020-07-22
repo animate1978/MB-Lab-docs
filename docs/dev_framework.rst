@@ -15,12 +15,6 @@ Allows the editing of existing base character models
 
 .. image:: images/mb_dev_178.png
 
-**Model Intergration**
-
-Tools to create the JSON data required for base character models
-
-.. image:: images/model_integration_01.png
-
 .. toctree::
    :maxdepth: 2
    
@@ -29,3 +23,11 @@ Tools to create the JSON data required for base character models
    char_lib_creation
    age_mass_tone_creation
    expression_editor
+
+
+**Model Intergration**
+
+Tools to create the JSON data required for base character models
+
+.. image:: images/model_integration_01.png
+
