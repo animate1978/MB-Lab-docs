@@ -23,5 +23,9 @@ Tools to create the JSON data required for base character models
 
 .. toctree::
    :maxdepth: 2
-   model_edition
-   model_integration
+   
+   morph_creator
+   copy_morphs
+   char_lib_creation
+   age_mass_tone_creation
+   expression_editor
