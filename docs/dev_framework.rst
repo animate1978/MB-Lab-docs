@@ -31,3 +31,8 @@ Tools to create the JSON data required for base character models
 
 .. image:: images/model_integration_01.png
 
+.. toctree::
+   :maxdepth: 2
+   
+   dev_model_init
+   
