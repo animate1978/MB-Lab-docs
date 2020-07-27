@@ -26,6 +26,8 @@ MB-Lab 1.7.8
 * "Standard" pose added to the rest pose presets
 * Hair Dynamics bug fix for Nvidia GPU cards
 * SSS Radius changed to more accurate values
+* Freckles now include two colors
+
 
 ============
 MB-Lab 1.7.7
