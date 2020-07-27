@@ -9,6 +9,7 @@ The process is relatively easy with these tools. However care must be taken to d
 
 So now, above tools for create a model from scratch, we have all related to the config file :
 
+.. image:: images/mb_dev_init_01.png
 
 1st we can init the project and make a fresh start.
 
@@ -32,9 +33,11 @@ On a side note, buttons here are exclusive :
     
     The names for all these actions are automatic, user has nothing to do.
 
-Step 2 :
+**Step 2 :**
 
 So, the configuration file is loaded. For the moment it's empty.
+
+.. image:: images/mb_dev_init.png
 
 The first thing to do is to load the model where all base models are stored.
 
@@ -44,18 +47,24 @@ The first thing to do is to load the model where all base models are stored.
 
 So if you click the button, all objects in the file show up, and you have access to the tools needed to construct config file.
 
+.. image:: images/mb_dev_init_02.png
+
 All objects are visible in the collection. And when you change the project, or use MB-Lab as a simple user, the collection and its content are deleted.
 
 
-Important notes about the blend with model(s) :
+**Important notes about the blend with model(s) :**
 
     It can have all models you want. And other stuff if you want. But the lighter it is, better it is.
     
     However, the mesh you want to use must have the same name of its parent. Example :
+    
+    .. image:: images/mb_lab_mistake_01.png
 
     This is not good, because there's a typo, so the names are not the same. It's not allowed.
     
     All skin of the model must be linked, i.e seen by Blender as a single surface. Teeth, eyes, eyebrows are not linked, but all the rest must. This is not good :
+
+    .. image:: images/mb_lab_mistake_02.png
 
     Head has 3 parts, it should have only one, as the rest of the body.
 
@@ -71,13 +80,38 @@ When models are loaded, the 1st thing to do when the config file is empty, is to
 
     When you choose a template, a list of information to give appears, that defines completely the base model as a template for later models like African, Polynesian... (next step)
 
+Step 3 :
+
+When models are loaded, the 1st thing to do when the config file is empty, is to name the templates :
+
+.. image:: images/mb_dev_template_01.png
+
+
+The templates are the base models that MB-Lab uses to make the body types and gender as African male or Asian female. There's no template for the moment, so we create them.
+
+You choose the name, the gender (undefined is possible). Again, the final name is automatic and has rules, so parts of it can't be changed.
+
+.. image:: images/mb_dev_template_02.png
+ 
+One template for one base model, no more. You have 5 base models, you can create 5 templates at most.
+
+Then it's done you can choose the template in the upper drop-down list. If you want to delete it, it's can be done in the next step.
+
+.. image:: images/mb_dev_template_03.png
+
+When you choose a template, a list of information to give appears, that defines completely the base model as a template for later models like African, Polynesian... (next step)
+
 
 Step 4 : The template
 
-image
+.. image:: images/mb_dev_template_04.png
+
 So now that the template is created, there are several information to give.
+
 The main concept to know here is when an information is known, it's displayed as a label with a checkmark icon. Here, for example, without having entered anything, the number of vertices and faces are already knwon because the drop-down list for base model shows 'MBLab_human_male". if we change it by "anime male", the values are changed.
-image
+
+.. image:: images/mb_dev_create_indices.png
+
 Note : The base model is in a drop-down list. When the content is saved, the list is changed by a simple label.
 
 So the the creator has to give the information.
@@ -104,11 +138,14 @@ So the the creator has to give the information.
     
     Save the template. When saved, the UI changes. Example :
 
+    .. image:: images/mb_dev_create_indices_02.png
+
     Here, there's just the indice file that is not created yet.
     
     Save configuration. The content is saved on file.
 
 Note : When you check the content of all your templates, don't hesitate to click on "save template" for each template you're checking. Because by construction, data that are filled automatically, are not stored in the config automatically. You are sure of that by clicking the button.
+
 When the check is done, don't forget to save the file.
 
 Next step, a tool for doing the same thing (basically) with body types. But be sure that all templates are done before going to the next step.
@@ -117,13 +154,16 @@ Step 5 : The character
 
 So now that we created all templates we wanted from the base models in the blend file, we have to create characters from them.
 
+.. image:: images/mb_dev_naming.png
+
 The creator has now to choose "Character creation tools". Then he basically has the same workflow to create his character :
 
 
-    He starts by creating the name (see below for rules)
+    Starts by creating the name (see below for rules)
     
     Then he chooses the name he just created in the the dropdown list, then he has a bunch of files/folders to choose (next step).
 
+.. image:: images/mb_dev_char_config_01.png
 
 Rules :
 
@@ -157,6 +197,8 @@ So, before talking about the tool itself, few things to know :
 So, what's going on here :
 
     Label + licence : gives a label shown when using the character. Here (F_AF01) is automatic, you don't have to write it.
+
+    .. image:: images/mb_dev_license.png
 
     Description : A long description of the character (as a tip for label).
     
