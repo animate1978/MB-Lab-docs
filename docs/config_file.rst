@@ -1,5 +1,7 @@
 Configuration File
-------------------
+==================
+
+
 
 **Step 1**
 
@@ -23,7 +25,7 @@ On a side note, buttons here are exclusive :
 
     Create sub-directories can only be clicked if they don't exist (only first one is checked)
     
-    Create configuration can't be clicked if the file already exists, so you can click on...
+    Create configuration can't be clicked if the file already exists
     
     Load configuration instead.
     
@@ -108,39 +110,44 @@ The main concept to know here is when an information is known, it's displayed as
 
 .. image:: images/mb_dev_create_indices.png
 
-Note : The base model is in a drop-down list. When the content is saved, the list is changed by a simple label.
+.. note::
+
+    The base model is in a drop-down list. When the content is saved, the list is changed by a simple label.
 
 So the the creator has to give the information.
 
-    A button to delete the template. No undo !
+* A button to delete the template. No undo !
 
-    Label : A short text to present the model. Be short !
+* Label : A short text to present the model. Be short !
 
-    Description : A longer description, that is shown as a tip.
+* Description : A longer description, that is shown as a tip.
 
-    The model to use that is stored in the blend file. IMPORTANT : One model for one template. If a model is used by a template, it can't be used for another template. NOTE : if your model disappears when you choose it (therefore you can't select it anymore), it's because the name of the mesh is not the same of its parent in collection. And it's case sensitive : "My_Model" is not identical to "my_model".
+* The model to use that is stored in the blend file. IMPORTANT : One model for one template. If a model is used by a template, it can't be used for another template. NOTE : if your model disappears when you choose it (therefore you can't select it anymore), it's because the name of the mesh is not the same of its parent in collection. And it's case sensitive : "My_Model" is not identical to "my_model".
     
-    The directory where all (except config and blend files) is stored, as the morphs, the materials, shaders, and so on. It's the name of the "project". Here it's 'try'.
+* The directory where all (except config and blend files) is stored, as the morphs, the materials, shaders, and so on. It's the name of the "project". Here it's 'try'.
     
-    Tool that creates a list of indices that are always used by body types (as Asian, Caucasian). Here it's just the ID of vertices. The vertices for each body type are stored elsewhere and are without ID. The tool for body types is explained in next steps.
+* Tool that creates a list of indices that are always used by body types (as Asian, Caucasian). Here it's just the ID of vertices. The vertices for each body type are stored elsewhere and are without ID. The tool for body types is explained in next steps.
     
-    The number of vertices that the model has. The engine checks that later to be sure that it uses the right model. Automatic.
+* The number of vertices that the model has. The engine checks that later to be sure that it uses the right model. Automatic.
     
-    Same for the faces/polygons. Automatic.
+* Same for the faces/polygons. Automatic.
     
-    After that you have 3 buttons.
+After that you have 3 buttons.
     
-    Delete content (but not the template).
+Delete content (but not the template).
     
-    Save the template. When saved, the UI changes. Example :
+Save the template. When saved, the UI changes. Example :
 
-    .. image:: images/mb_dev_create_indices_02.png
+.. image:: images/mb_dev_create_indices_02.png
 
-    Here, there's just the indice file that is not created yet.
+Here, there's just the indice file that is not created yet.
     
-    Save configuration. The content is saved on file.
+Save configuration. The content is saved on file.
 
-Note : When you check the content of all your templates, don't hesitate to click on "save template" for each template you're checking. Because by construction, data that are filled automatically, are not stored in the config automatically. You are sure of that by clicking the button.
+.. note::
+
+    When you check the content of all your templates, don't hesitate to click on "save template" for each template you're checking. Because by construction, data that are filled automatically, are not stored in the config automatically. You are sure of that by clicking the button.
+
 
 When the check is done, don't forget to save the file.
 
@@ -161,9 +168,10 @@ The creator has now to choose "Character creation tools". Then he basically has 
 
 .. image:: images/mb_dev_char_config_01.png
 
-Rules :
 
-    For the name of character, it must be a 4 letters name; like as01, tt55 and so on. Shorter names are valid, but prefer 4 letters.
+.. note::
+
+    For the name of character, it **MUST** be a 4 letters name; like as01, tt55 and so on. Shorter names are valid, but prefer 4 letters.
     
     By convention, the first 2 letters describe the body type : as for Asian, ca for Caucasian and so on. Then there are 2 numbers from 01 to 99 for obvious reason. These are not strict rules, but comply with it is better for clarity.
 
@@ -174,21 +182,21 @@ Here is the most tedious part of the tool. As you have seen during the previous 
 
 So, before talking about the tool itself, few things to know :
 
-    Morphs are their own directory (see documentation about making your own morphs for more details). Textures have their directory too, as joints, BBoxes and so on. Same thing about the 2 folders that have to be filled in. But some files have to be created outside MB-Lab, other don't. Here is the list :
+* Morphs are their own directory (see documentation about making your own morphs for more details). Textures have their directory too, as joints, BBoxes and so on. Same thing about the 2 folders that have to be filled in. But some files have to be created outside MB-Lab, other don't. Here is the list :
 
-    Files that can be made with MB-Lab tools : Morphs, Measures, Transformations.
+* Files that can be made with MB-Lab tools : Morphs, Measures, Transformations.
     
-    Files that have to be created outside MB-Lab : Textures.
+* Files that have to be created outside MB-Lab : Textures.
     
-    Files that have to be created outside, but are transformed with internal tools before using them : BBoxes, Joints, VGroups.
+* Files that have to be created outside, but are transformed with internal tools before using them : BBoxes, Joints, VGroups.
     
-    The name of folder must be chosen during this step, and is stored in the config file, but the folder itself is physically created when files inside are created by MB-Lab's tools.
+* The name of folder must be chosen during this step, and is stored in the config file, but the folder itself is physically created when files inside are created by MB-Lab's tools.
 
-    The fill of this step can be long and tedious. But, as the other tools, it's not necessary to have all files created/known. But if you start a session, and then you decide to change some values, if you click on "delete character content", all values will be deleted and you'll have to fill in all values again.
+* The fill of this step can be long and tedious. But, as the other tools, it's not necessary to have all files created/known. But if you start a session, and then you decide to change some values, if you click on "delete character content", all values will be deleted and you'll have to fill in all values again.
     
-    So, when you don't know a file, or you are sure to change it soon, let the dropdown list to "Unknown". This way, each time you start a new session for this character, you'll be able to choose a file.
+So, when you don't know a file, or you are sure to change it soon, let the dropdown list to "Unknown". This way, each time you start a new session for this character, you'll be able to choose a file.
     
-    The exception for this is when you make changes during the session, for the same character. The dropdown lists keep in memory the last file shown. So if you validate the list, and decide to change it just after, no problem, you won't have to refill everything.
+The exception for this is when you make changes during the session, for the same character. The dropdown lists keep in memory the last file shown. So if you validate the list, and decide to change it just after, no problem, you won't have to refill everything.
 
 So, what's going on here :
 
