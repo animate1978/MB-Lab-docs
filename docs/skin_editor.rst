@@ -18,7 +18,7 @@ There are currently two sets of shaders, one "photorealistic" set and the "cell"
 
 The shaders use a combination of texture maps and procedural texture generation, the texture maps are used where procedural generated textures cannot work, while the procedural elements provide details that maps cannot replicate.
 
-.. image:: images/skin_shader_01.png
+.. image:: images/skin_shader_internal.png
 
 The following parameter editor will change depending on the base model you choose.
 
@@ -39,6 +39,30 @@ Skin Complexion
 This changes the skin complexion shade.
 
 .. image:: images/complexion.png
+
+--------
+Skin Hue
+--------
+
+This changes the Hue of the skin.
+
+.. image:: images/skin_hues_example01.png
+
+---------------
+Skin Saturation
+---------------
+
+This controls the amount of Saturation of the skin.
+
+.. image:: images/skin_sat_0to1.png
+
+----------
+Skin Value
+----------
+
+This controls the Value of the skin.
+
+.. image:: images/skin_value00to100.png
 
 --------
 Skin Oil
@@ -103,7 +127,7 @@ You should use this button to update the bump/displacement each time you change 
 
 Each time the button "Update displacement" is pressed, the system recalculates the displacement map using the values of meta parameters. This map can be saved with the "Save displacement image" button, in order to be usable in external engines or in finalized characters.
 
-.. image:: images/cycles_displace.png
+.. image:: images/doc_displacement_example_01.png
 
 
 ======================
@@ -185,63 +209,40 @@ Controls how much fake reflection is shown on the eyes.
 Eyes Saturation
 ---------------
 
-This controls the saturation of the iris, can be used in combination with Eye Hue to fine tune the color.
+This controls the Saturation.
 
 ----------
 Eyes Value
 ----------
 
-This controls the value, or lightness, of the iris. As with Saturation can be used to fine tune the color of the iris.
+This controls the value, or lightness, of the iris.
 
 
-===================
-Eye and Iris Shader
-===================
+===========
+Iris Shader
+===========
 
-Starting with version 1.7.5 comes a new set of **eye** shaders. They have been redesigned from the ground up.
+Recently the Iris shader has been updated to remove the image based shader and now use a fully procedural network.
 
-The Iris shader has both a procedural network where you can change various settings to get the effect you want, as well as a texture map version with controls in MB-Lab that can change the color as well. There is the option to Mix the two together to get some interesting effects.
-
-The Eyeball shader uses a new texture map set.
-
-Currently there is no option in MB-Lab to change the iris color in the MB-Lab Skin Editor, this is a feature that is being looked at but for now there is a couple of ways to change the color.
-
-.. image:: images/new_eyes_EEVEE_01.png
-
-Method 1. Change the color in the Node Editor.
-
-.. image:: images/new_iris_nodes.png
-
-Method 2. Change the color in the Properties Panel.
-
-.. image:: images/new_iris_prop.png
-
-Both ways require a small amount of mouse clicking to get to but the shader has been designed to hopefully make changing the iris color easy as possible with current code.
-
-
-------------
-Eye Iris Mix
-------------
-
-This simply mixes between procedural or texture map networks.
+Be warned that the shader can take some time to compile for EEVEE.
 
 --------
 Eyes Hue
 --------
 
-This changes the color hue of the iris in the texture map network.
+This changes the color hue of the iris.
 
 ---------------
 Eyes Saturation
 ---------------
 
-This controls the saturation of the iris, can be used in combination with Eye Hue to fine tune the color.
+This controls the saturation of the iris.
 
 ----------
 Eyes Value
 ----------
 
-This controls the value, or lightness, of the iris. As with Saturation can be used to fine tune the color of the iris.
+This controls the value, or lightness, of the iris.
 
 ============
 Texture Maps
@@ -268,11 +269,3 @@ Once you finalize the MB-Lab character it is NOT required to have the surface sh
 Each base model has shaders assigned to polygons, these shaders can easily be replaced with your own simply by replacing the current ones shipped.
 
 This also applies to the texture maps that are shipped with MB-Lab, these can be edited by your prefered image editor (such as Photoshop or GIMP) to your specfic needs.
-
-============
-Future Notes
-============
-
-The surface shaders are always undergoing evaluation and testing to try to achieve the best possible visual representation of the human body.
-
-If you have suggestions about the surface shaders please feel free to contact the developers.

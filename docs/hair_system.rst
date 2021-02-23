@@ -1,11 +1,11 @@
 Hair System
 ===========
 
-The new Hair Engine allows the ability to add particle hair to a MB-Lab character after finalization.
+The Hair Engines allows the ability to add particle hair to a MB-Lab character after finalization.
 
 .. image:: images/hair_full_render_002.png
 
-The particle hair can be accessed in ASSETS AND HAIR.
+The particle hair can be accessed in ASSETS AND HAIR group of MB-Lab.
 
 .. image:: images/GUI_hair_01.png
 
@@ -61,11 +61,42 @@ Add more Hair!
 
 .. image:: images/hair_tut02_004.png
 
-=====
-NOTES
-=====
+===========
+Hair Shader
+===========
 
-The Hair Engine is a brand new feature and is evolving at a fast pace, expect the code to change
+Upon creation the Hair Engine will assign a shader.
 
-Currently there is no shader assigned to the Hair system upon creation, this is actively being worked on and should appear soon.
+Depending on what rendering engine you have selected when you create a new character, it will attach either a Principled Hair BDSF for Cycles or a custom hair shader for EEVEE.
 
+The reason for this is because EEVEE cannot render Principled Hair BDSF nodes.
+
+Below are the shader networks seen in Cycles or EEVEE
+
+.. image:: images/cycles_hair_01.png
+
+.. image:: images/eevee_hair_01.png
+
+===========
+Hair Guides
+===========
+
+This is a very new addition to the MB-Lab hair engines, built by the same developer that has done the previous hair engine.
+
+This engine will add a new scalp mesh very similar to the previous hair engine, however this will give you the option to attach hair guides to this new mesh.
+
+These hair guides can be moved according to your needs.
+
+It also allows you to bake the hair to cards, for use in things like game engines or other rendering software that can't properly render the particle hair.
+
+.. image:: images/scalp_mesh_addition_01.png
+
+First add the scalp mesh.
+
+.. image:: images/curve_guides_001.png
+
+Select the Add Curve Guides then click on the Hair from Vertex Groups button, this adds the curve guides
+
+.. image:: images/curve_guides_002.png
+
+These curve guides can be moved around for your needs.

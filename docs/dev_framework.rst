@@ -35,7 +35,7 @@ Tools to create the JSON data required for base character models
    :maxdepth: 2
    
    dev_model_init
-   config_files
+   config_file
    measures_file
    morphs_files
    joints_files
