@@ -32,11 +32,11 @@ Realistic Shader Parameters
 
 The realistic skin shader set are part of the realistic base models.
 
----------------
-Skin Complexion
----------------
+------------
+Skin Melanin
+------------
 
-This changes the skin complexion shade.
+This changes the skin melanin, or what used to be complexion. Melanin is a more accurate term for the shader.
 
 .. image:: images/complexion.png
 
@@ -129,6 +129,34 @@ Each time the button "Update displacement" is pressed, the system recalculates t
 
 .. image:: images/doc_displacement_example_01.png
 
+===========
+Iris Shader
+===========
+
+Recently the Iris shader has been updated to remove the image based shader and now use a fully procedural network.
+
+.. image:: images/new_iris_01.png
+
+Be warned that the shader can take some time to compile for EEVEE.
+
+--------
+Eyes Hue
+--------
+
+This changes the color hue of the iris.
+
+---------------
+Eyes Saturation
+---------------
+
+This controls the saturation of the iris.
+
+----------
+Eyes Value
+----------
+
+This controls the value, or lightness, of the iris.
+
 
 ======================
 Cell Shader Parameters
@@ -217,32 +245,6 @@ Eyes Value
 
 This controls the value, or lightness, of the iris.
 
-
-===========
-Iris Shader
-===========
-
-Recently the Iris shader has been updated to remove the image based shader and now use a fully procedural network.
-
-Be warned that the shader can take some time to compile for EEVEE.
-
---------
-Eyes Hue
---------
-
-This changes the color hue of the iris.
-
----------------
-Eyes Saturation
----------------
-
-This controls the saturation of the iris.
-
-----------
-Eyes Value
-----------
-
-This controls the value, or lightness, of the iris.
 
 ============
 Texture Maps
