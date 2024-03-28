@@ -6,14 +6,6 @@ Install MB-Lab
 ==============
 
 
-**IMPORTANT**
-
-For **MB-Lab 1.7.7** and above it was decided to release this version on the new website
-
-https://mblab.dev/
-
-
-
 * Step 1
 
 In Blender 2.80+, open the user preferences window, choosing Edit → Preferences
@@ -93,7 +85,7 @@ To remove simply delete the MB-Lab directory from your file system
 Upgrading
 =========
 
-With **MB-Lab 1.7.3** it is now possible to upgrade the addon inside Blender without having to go through a lot of extra steps of cloning the repository, downloading the addon and installing every time there is an update to MB-Lab.
+With **MB-Lab 1.8.0** the Auto Updater has been disabled for now.
 
 .. image:: images/auto_updater_173.png
 
