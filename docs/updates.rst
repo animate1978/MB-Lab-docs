@@ -2,6 +2,27 @@ Updates
 =======
 
 ============
+MB-Lab 1.8.0
+============
+
+* Requires Blender 4.0.0 +
+* Melanin map added that adds variance to the skin pigment
+* MBLabSkin3 is a now based off of the 1.7.6 shader with modifications
+* AutoUpdater is disabled
+* SubD levels have increased for better visuals
+* Some menus rearranged for better workflow
+* Added new license types in MB-Dev, also removed AFPL due to restrictive nature
+* Fixed bugs in various files to make it work with Blender 4.0
+* Fix issues with saving and reloading new characters
+* Fix prevent wrong objects to be returned from
+* Fix finalization for MB-Dev characters
+* Added scalp mesh to hair engine
+* Use annotations for prop definitions
+* Bugs chasing in model creation
+* Optimize calculate_disp_pixels for faster displacement calculation
+
+
+============
 MB-Lab 1.7.8
 ============
 

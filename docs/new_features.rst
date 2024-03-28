@@ -2,11 +2,46 @@ New Features
 ============
 
 =============
-Version 1.7.9
+Version 1.8.0
 =============
 
-COMING SOON!
+-------------------
+Blender 4.0 Support
+-------------------
 
+After a long pause of development the next major Blender version is now supported.
+
+Support for Blender 4.0 and 4.1
+
+-----------
+Melanin Map
+-----------
+
+This version introduces the Melanin Map which varies shades of skin color in various locations on the body.
+
+.. image:: images/melaninmap_01.png
+
+It should be noted that this map was not scientifically based
+
+---------------------
+MB-Lab Skin Shader v3
+---------------------
+
+.. image:: images/skin_shader_02.png
+
+The skin shader has been duplicated from MB-Lab 1.7.6 but with modifications. It was observed that while render time reduction was important, the skin looked less than desirable so the skin shader was reverted back to an acceptable form and modified to showcase the new Melanin map.
+
+The procedural skin bump mapping has been disabled for this version until further notice.
+
+Utilizes the new Principled BSDF shader node for EEVEE.
+
+----------
+Scalp Mesh
+----------
+
+This was introduced in between MB-Lab 1.7.8 and 1.8.0, adds a new Scalp mesh to the base characters. This will allow for custom hair development.
+
+.. image:: images/scalpmesh_01.png
 
 =============
 Version 1.7.8
